@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_tech_icons",
+  "info": {
+    "name": "techIcons",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

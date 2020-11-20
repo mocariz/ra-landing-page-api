@@ -29,6 +29,21 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-project"
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-icons"
     }
   }
 }
