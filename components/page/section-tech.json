@@ -2,8 +2,18 @@
   "collectionName": "components_page_section_teches",
   "info": {
     "name": "sectionTech",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-icons"
+    }
+  }
 }

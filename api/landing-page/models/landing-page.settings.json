@@ -37,28 +37,10 @@
       "component": "page.section-tech",
       "required": true
     },
-    "title": {
-      "type": "string",
-      "unique": false,
-      "required": true
-    },
-    "techIcons": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.tech-icons",
-      "min": 4,
-      "required": true
-    },
     "sectionConcepts": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-concepts",
-      "required": true
-    },
-    "sectionModules": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-models",
       "required": true
     },
     "sectionAgenda": {
@@ -89,6 +71,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq",
+      "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
       "required": true
     }
   }

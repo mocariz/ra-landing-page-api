@@ -2,7 +2,8 @@
   "collectionName": "components_page_princing_boxes",
   "info": {
     "name": "princingBox",
-    "icon": "dollar-sign"
+    "icon": "dollar-sign",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,7 +17,7 @@
       "required": true,
       "default": 6
     },
-    "priceInstallments": {
+    "priceInstallment": {
       "type": "integer",
       "required": true,
       "default": 48

@@ -1,14 +1,17 @@
 {
   "collectionName": "components_page_reviews",
   "info": {
-    "name": "review",
-    "icon": "star-half-alt",
-    "description": ""
+    "name": "reviews",
+    "icon": "apple-alt"
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
       "required": true
     },
     "photo": {
@@ -18,10 +21,6 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
-    },
-    "text": {
-      "type": "text",
       "required": true
     }
   }
