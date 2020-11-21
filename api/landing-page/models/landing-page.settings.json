@@ -44,6 +44,11 @@
       "type": "component",
       "repeatable": true,
       "component": "page.tech-icons"
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
     }
   }
 }
