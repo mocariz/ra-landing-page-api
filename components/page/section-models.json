@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_models",
+  "info": {
+    "name": "sectionModels",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.models",
+      "required": true
+    }
+  }
+}

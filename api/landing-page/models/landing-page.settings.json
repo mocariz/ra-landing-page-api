@@ -28,12 +28,14 @@
     "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-about-project"
+      "component": "page.section-about-project",
+      "required": true
     },
     "sectionTech": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-tech"
+      "component": "page.section-tech",
+      "required": true
     },
     "title": {
       "type": "string",
@@ -43,12 +45,21 @@
     "techIcons": {
       "type": "component",
       "repeatable": true,
-      "component": "page.tech-icons"
+      "component": "page.tech-icons",
+      "min": 4,
+      "required": true
     },
     "sectionConcepts": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-concepts"
+      "component": "page.section-concepts",
+      "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-models",
+      "required": true
     }
   }
 }
