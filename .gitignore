@@ -67,7 +67,6 @@ $RECYCLE.BIN/
 
 .tmp
 *.log
-*.sql
 *.sqlite
 *.sqlite3
 
@@ -112,3 +111,6 @@ license.txt
 exports
 .cache
 build
+
+
+*:Zone.Identifier
